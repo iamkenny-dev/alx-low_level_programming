@@ -19,13 +19,13 @@ n = rand() - RAND_MAX / 2;
 
   /*MY CODE*/
 digit = n % 10; /*gets last digit*/
-
+printf("last digit of %i is %i and is ", n, digit);
 if (digit > 5)
-printf("last digit of %i is %i and is greater than 5\n", n, digit);
+printf("greater than 5\n");
 else if (digit == 0)
-printf("last digit of %i is %i and is 0\n", n, digit);
-else if (digit < 6 && digit != 0)
-printf("last digit of %i is %i and is less than 6 and not 0\n" n, digit);
+printf("0\n");
+else
+printf("less than 6 and not 0\n");
 
 return (0);
 }
