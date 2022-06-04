@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 
   /*MY CODE*/
 digit = n % 10; /*gets last digit*/
-printf("last digit of %i is %i and is ", n, digit);
+printf("Last digit of %i is %i and is ", n, digit);
 if (digit > 5)
 printf("greater than 5\n");
 else if (digit == 0)
