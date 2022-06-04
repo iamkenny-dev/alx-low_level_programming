@@ -1,4 +1,4 @@
-#include < stdio.h>
+#include <stdio.h>
 
 /**
  * main - create two pairs of numbers that do not repeat
