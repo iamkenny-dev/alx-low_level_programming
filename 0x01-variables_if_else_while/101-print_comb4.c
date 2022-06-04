@@ -23,7 +23,7 @@ for (j = i; j < 58; j++)
 	putchar(k);
 	if (i == 55 && j == 56 && k == 57)
 		{
-		break
+		break;
 		}
 	else
 		{
