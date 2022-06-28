@@ -21,13 +21,10 @@ b = 0;
 
 while (av[a][b] != '\0')
 {
-	count++;
-
-	b++;
-
-	}
+count++;
+b++;
+}
 a++;
-
 }
 count = count + ac + 1;
 
