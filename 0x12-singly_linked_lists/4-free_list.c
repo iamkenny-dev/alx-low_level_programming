@@ -1,14 +1,14 @@
-nclude "lists.h"
-
 #include <stdlib.h>
+
+#include "lists.h"
 
 
 
 /**
 
- * free_list - Frees a list_t list.
+ * free_list - frees a linked list
 
- * @head: A pointer to the list_t list.
+ * @head: list_t list to be freed
 
  */
 
